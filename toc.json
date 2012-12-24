@@ -10,6 +10,7 @@
         "production-notes",
         "maintainability",
         "coding-standards",
-        "continuous-integration""
+        "continuous-integration",
+        "gavd-attitude-counts"
     ]
 }
