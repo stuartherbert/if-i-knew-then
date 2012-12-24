@@ -8,6 +8,8 @@
         "copyright",
         "licence",
         "production-notes",
-        "maintainability"
+        "maintainability",
+        "coding-standards",
+        "continuous-integration""
     ]
 }
