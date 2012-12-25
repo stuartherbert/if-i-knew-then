@@ -26,10 +26,20 @@ Here's my wishlist:
 
 See, nothing on this wishlist is particularly technical, it's all about my attitude and situation.
 
-On the flip side of my own behaviour, I've worked with young guys who have thought they knew it all, so I've seen how bad that is
+On the flip side of my own behaviour, I've worked with young guys who have thought they knew it all, and that can really have a "bad apple" effect. It's very hard to work with people that won't be told anything!
+
+## What makes a good attitude for a coder?
+
+
+
+Of course, technical skills are absolutely vital for working in the software industry. 
+
+## Want to go deeper?
+
+If you've enjoyed this chapter, you might want to check out my book, [Deal With It: Attitude for Coders](https://leanpub.com/dealwithit), which goes into detail on various aspects of how attitude can help you to be a better, happier programmer.
 
 ## Author bio
 
-Principal software developer at Box UK. Organiser of coding workshop [Cardiff Dev Workshop](http://cardiffdevworkshop.com/) and co-organiser of pub-based tech meetup [Unified Diff](http://unifieddiff.co.uk). Writing down the things I wish I'd known all along!
+Principal software developer at Box UK. Organiser of coding workshop [Cardiff Dev Workshop](http://cardiffdevworkshop.com/) and co-organiser of pub-based tech meetup [Unified Diff](http://unifieddiff.co.uk). Coding since I was 4 years old and writing down the things I wish I'd known all along!
 
 My blog is at [gavd.co.uk](http://gavd.co.uk) and I am the author of [Deal With It: Attitude for Coders](https://leanpub.com/dealwithit)
