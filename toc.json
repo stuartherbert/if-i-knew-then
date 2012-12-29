@@ -11,6 +11,7 @@
         "maintainability",
         "coding-standards",
         "continuous-integration",
-        "gavd-attitude-counts"
+        "gavd-attitude-counts",
+        "design-patterns"
     ]
 }
