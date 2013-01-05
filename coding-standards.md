@@ -9,15 +9,19 @@ There's a bit of a debate as to whether you should intent your code with tabs or
 
 ## Why Should I Care?
 
-When you start working on a project with other developers, it's important to agree on a coding standard. Some software houses will have their own standard that you must use, but many open standards like [PSR](https://github.com/php-fig/fig-standards) already exist. Here are some interesting posts
+When you start working on a project with other developers, it's important to agree on a coding standard. Some software houses will have their own standard that you must use, but many open standards like [PSR](https://github.com/php-fig/fig-standards) already exist. 
+
+Here are some interesting points (see ref. #1 for source):
 
 * 40-80% of the lifetime cost of a piece of software goes into maintenance.
  
 * Hardly any software is maintained for its whole life by the original author.
 
-Think how many young open source projects would die if when the original author left nobody wanted to pick up the project anymore because the source code was in such a bad shape? Nobody wants to buy a home that's been badly looked after and the same goes for code. That's how projects die. There's nothing worse than coming along to work on a project only to find that it's been badly maintained and nobody wants to work on it.
+Think how many young open source projects would die if when the original author left nobody wanted to pick up the project anymore because the source code was in such a bad shape? Nobody wants to buy a home that's been badly looked after and the same goes for code. That's how projects die. There's nothing worse than coming along to work on a project only to find that it's been badly maintained and nobody wants to work on it. 
 
-I have the pleasure of working with some very clever chaps like Gavin, whose written an excellent blog post on [trusting the libraries](http://www.boxuk.com/blog/trusting-the-libraries-you-use) you use. A good way to do this is to see how often code gets contributed to it. That will give you an idea about whether this code is actually being used by people in the wild and how well it's being maintained. I would be willing to bet that the projects being actively developered for are also the ones backed up by good coding standards.
+This point is also raised in The [Cathedral and the Bazaar](http://www.catb.org/esr/writings/cathedral-bazaar/cathedral-bazaar/) where Eric S. Raymon takes over, quite by accident, a dead project after the original author had lost interest. Initially through small patches and bugfixes, he took over maintaining the project and the code base started evolving again. In this open source world of code sharing it's easy to get the ball rolling on a project and have it live on long after the original author has lost interest. The easier you make it for people in later years to come and pickup your code again the better you are for it as they'll respect you and your work more instead of starting again from scratch. I would much rather develop code for a dead code and inherit the position as a maintainer vs [re-invent the wheel](http://sourcemaking.com/antipatterns/reinvent-the-wheel).
+
+I have the pleasure of working with some very clever chaps like Gavin, whose written an excellent blog post on [trusting the libraries](http://www.boxuk.com/blog/trusting-the-libraries-you-use) you use. A good way to do this is to see how often code gets contributed to it. That will give you an idea about whether this code is actually being used by people in the wild and how well it's being maintained. I would be willing to bet that the projects being actively developered for are also the ones backed up by good coding standards. Imagine the pain you'd have for investing days/weeks worth of time integrating the use of a library in your project only to find that there's a big bug preventing you from doing what you want with it, but because the project isn't being maintained you have nobody to send a bug report or fix to. On the other hand, that could be your opporunity to take over the project give it a new lease of life.
 
 ## PSRs
 I'm using PSR as an example because I'm a PHP developer by trade right now and that's what I know best although the concepts are mostly interchangable between languages. 
