@@ -48,7 +48,15 @@ Not only that but because the two frameworks both adopted PSR-0 it means you can
 Take a look at the [PHP Framework Interoperability Group](http://www.php-fig.org/) website for more info.
 
 ## Why This Matters To Me?
+Coding standards matter to me because the way I'm working at the moment means that CI jobs will fail if the build if PSR-2 compliance isn't met. If the the code in the Pull Request fails the build then it won't get merged in. By ensuring my code meets the PSR-2 coding style I'm making sure that my code is of a good quality, readability and thus (hopefuly) maintainabile. I don't want to be known as *that* guy whose code is hard to work with. Git/SVN blame makes it easy to trace down who and when lines of code were added. I don't want any crazy developers hunting me down in years to come!
 
+I found very quickly after leaving University that what I knew about programming was just the tip of the iceberg. I'm lucky to work with some very, very clever guys and the amount of information I pick up off them through osmosis is huge and sometimes too much to handle. I'm the type of person who learns by doing, so by meeting the PSR-2 levels of coding standards I'm achieving a standard that's been set by very clever people, much clever than you and I.
+
+I can say for certainty that if you attend a job interview and get talking about coding standards you will get your interviewer's attention. Developers are a common breed, there are lots of us. In 2011, the [UK Higher Education Statistics Agency](http://www.hesa.ac.uk/index.php?option=com_content&task=view&id=2546&Itemid=278) stated for fact that: 
+
+>The highest unemployment rate is seen amongst those who studied Computer science, at 14.6%.
+
+You have competition, my friends. Rise up and beat it. Interviews are crucial to this. By talking about and using practices like coding standards you're leveling up on your competition who don't. Computer Science graduates have a reputation for being sloppy and hap-hazard coders. Don't let yourself be that person! Prove them wrong! If you get people's attention by using best practices you'll stick in their memory with a positive note and that's the best thing you can achieve in a job interview. That's your foot in the mental doorway to a career with that company.
 
 ## Bio
 
