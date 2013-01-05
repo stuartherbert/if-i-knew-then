@@ -5,7 +5,7 @@ Coding Standards - Steffan Harries
 
 Coding Standards (AKA: Coding Conventions) are a method of imposing simple rules and to follow when you're writing code. These "standards" are not enforced by compilers or interpreters but can be enforced using build tools and continuous integration tasks. Coding Standards are a style guide that tells you whether you should put your curly braces on the same or a new line, or if your namespaces should have a top-level vendor name, perhaps those methods should be typed in camelCase()?
 
-There's a bit of a debate as to whether you should intent your code with tabs or spaces, and if you use spaces is it two of them or four? Does white space matter? What about file naming conventions? Obviously there are a lot of variables (bad pun) here that may affect the way you work. If you're working on a project with other developers and you all start coding in your own *style* you'll quickly find your source code is a mess and becomes unreadable. And [readability](http://shop.oreilly.com/product/9780596802301.do) [matters](http://books.google.co.uk/books/about/Clean_Code.html?id=_i6bDeoCQzsC)! 
+There's a bit of a debate as to whether you should intent your code with tabs or spaces, and if you use spaces is it two of them or four? Does white space matter? What about file naming conventions? Obviously there are a lot of variables (bad pun) here that may affect the way you work. If you're working on a project with other developers and you all start coding in your own *style* you'll quickly find your source code is a mess and becomes unreadable. And [readability](http://shop.oreilly.com/product/9780596802301.do) really does [matter](http://books.google.co.uk/books/about/Clean_Code.html?id=_i6bDeoCQzsC)! 
 
 ## Why Should I Care?
 
@@ -45,8 +45,6 @@ Not only that but because the two frameworks both adopted PSR-0 it means you can
 
 ### Coding Style Guide: PSR-2
 
-Take a look at the [PHP Framework Interoperability Group](http://www.php-fig.org/) website for more info.
-
 ## Why This Matters To Me?
 Coding standards matter to me because the way I'm working at the moment means that CI jobs will fail if the build if PSR-2 compliance isn't met. If the the code in the Pull Request fails the build then it won't get merged in. By ensuring my code meets the PSR-2 coding style I'm making sure that my code is of a good quality, readability and thus (hopefuly) maintainabile. I don't want to be known as *that* guy whose code is hard to work with. Git/SVN blame makes it easy to trace down who and when lines of code were added. I don't want any crazy developers hunting me down in years to come!
 
@@ -60,7 +58,7 @@ You have competition, my friends. Rise up and beat it. Interviews are crucial to
 
 Coding standards matter to me because they'll make your life easier in the long run in your projects, they'll get you kudos from fellow developers and because they'll make you a better developer. Any thing that makes me better at coding, no matter how small, is a win for me. Eventually coding standards will become almost second nature - I'm not quite there yet but I'm seeing positive improvements all the time. 
 
-I've definetly seen a change in the way I write code for the better since adopting coding standards. I used to write code and if it worked I didn't care, I may not have even written tests for it. That's the type of mindset being at a coder at university forces you into through working on 6 different projects at once, each with their own rediculous deadline, whilst you're desperately trying to cling onto a social life. That *has* to change when you get to industry. I'm really happy with how much my coding has improved in the last 6 months since I left university. I'm a much better developer and that's in no short thanks to coding standards, I owe my new colleagues a big thank you for being able to point me towards resources to read and tools that make this easier for me to pick up.
+I've definetly seen a change in the way I write code for the better since adopting coding standards. I used to write code and if it worked I didn't care, I may not have even written tests for it. That's the type of mindset being at a coder at university forces you into through working on 6 different projects at once, each with their own rediculous deadline, whilst you're desperately trying to cling onto a social life. That *has* to change when you get to industry. I'm really happy with how much my coding has improved in the last 6 months since I left university. I'm a much better developer and that's in no short thanks to coding standards, I owe my new colleagues a big thank you for introducing me to tools like [phpcs](http://pear.php.net/package/PHP_CodeSniffer/) that make things like this easier for me to pick up.
 
 ## Bio
 
@@ -68,7 +66,9 @@ I'm [Steffan Harries](http://www.steffanharries.me.uk), I recently graduated fro
 
 ---
 
-## References
+## Resources
 On top of the hyperlinks used in this chapter here's some other useful sources of info I used writing this chapter: 
 
 1. Robert L. Glass: Facts and Fallacies of Software Engineering; Addison Wesley, 2003.
+2. PHP Framework Interoperability Group - <http://www.php-fig.org/>
+3. PHP_CodeSniffer - <http://pear.php.net/package/PHP_CodeSniffer/>
