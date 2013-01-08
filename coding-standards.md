@@ -46,7 +46,7 @@ PSR-1 is just what it says on the tin: it's the basic coding for "*what should b
 
 * PHP code MUST use only UTF-8 without BOM.
 * Constants must be declared in upper case with underscore separaters
-* Side Effects
+* A file should declare symbols (classes, functions, constants) or declare side effects
 
 #### Side Effects
 This is an interesting (read: weird) point raised in PSR-1. 
@@ -88,8 +88,52 @@ That's pretty much all I'm going to say on PSR-1. You could go further but I don
 
 
 ### Coding Style Guide: PSR-2
+Here comes the good stuff. PSR-2 is what you *always* should aim for. PSR-2 exists to ensure that your code reduces confusion when being contributed to by multiple authors. They say: "*It does so by enumerating a shared set of rules and expectations about how to format PHP code*".
 
+PSR-2 compliant code must (amongst other things) do the following:
 
+* Follow PSR-1
+* Use 4 spaces for indenting, not tabs
+* Must not be a hard limit on line length; the soft limit is 120 chars.
+* Place opening braces for classes on a new line, closing braces must go on the next line after the body (no white space!)
+* Visibility must be declared on all properties and methods
+* Control structure keywords (if, while, etc) must have one space after them; methods must not
+
+Here's another example from the docs, see which of the above rules you can apply.
+
+```
+<?php
+namespace Vendor\Package;
+
+use FooInterface;
+use BarClass as Bar;
+use OtherVendor\OtherPackage\BazClass;
+
+class Foo extends Bar implements FooInterface
+{
+    public function sampleFunction($a, $b = null)
+    {
+        if ($a === $b) {
+            bar();
+        } elseif ($a > $b) {
+            $foo->bar($arg1);
+        } else {
+            BazClass::bar($arg2, $arg3);
+        }
+    }
+
+    final public static function bar()
+    {
+        // method body
+    }
+}
+```
+
+As you can see, PSR-2 provides for very readable code. We can see from that example that the namespace complies to PSR-1, there's a nice blank line between the namespace before the ```use``` declarations and that the class and function curly braces go on a new line for added clarity. Note however that the if/else block places the opening curly brace on the same line! Some would criticise PSR-2 here for inconsistency, and maybe their right.
+
+I honestly don't know the reason for this. I would like to think it's because classes and functions can be long and can sometimes extend longer than your IDE can show you at one time, so putting it on a new line helps clarity. However control structures like if/else blocks are very common and shouldn't be long or unweildy and so it would be overkill to put those on a new line - but that's just me talking.
+
+One more thing: the documentation for PSR-2 doesn't give justification for these rules. They were gathered from studying well run projects and looking for commonalities to adopt as a practice. They kept their survey data and results and published them too: <https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md#appendix-a-survey> 
 
 ## Why This Matters To Me?
 Coding standards matter to me because the way I'm working at the moment means that CI jobs will fail if the build if PSR-2 compliance isn't met. If the the code in the Pull Request fails the build then it won't get merged in. By ensuring my code meets the PSR-2 coding style I'm making sure that my code is of a good quality, readability and thus (hopefuly) maintainabile. I don't want to be known as *that* guy whose code is hard to work with. Git/SVN blame makes it easy to trace down who and when lines of code were added. I don't want any crazy developers hunting me down in years to come!
