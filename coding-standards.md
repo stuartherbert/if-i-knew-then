@@ -3,9 +3,9 @@ Coding Standards - Steffan Harries
 
 ## What are Coding Standards?
 
-Coding Standards (AKA: Coding Conventions) are a method of imposing simple rules and to follow when you're writing code. These "standards" are not enforced by compilers or interpreters but can be enforced using build tools and continuous integration tasks. Coding Standards are a style guide that tells you whether you should put your curly braces on the same or a new line, or if your namespaces should have a top-level vendor name, perhaps those methods should be typed in camelCase()?
+Coding Standards (AKA: Coding Conventions) are a method of imposing simple rules and to follow when you're writing code. These "standards" are not enforced by compilers or interpreters but are run by using build tools, like [ant](http://ant.apache.org/) or [phing](http://www.phing.info/), and continuous integration servers like [Jenkins](http://jenkins-ci.org/) and [Travis](https://travis-ci.org/) CI. Coding Standards are a style guide that tells you whether you should put your curly braces on the same or a new line, or remind you those methods should be typed in camelCase()?
 
-There's a bit of a debate as to whether you should intent your code with tabs or spaces, and if you use spaces is it two of them or four? Does white space matter? What about file naming conventions? Obviously there are a lot of variables (bad pun) here that may affect the way you work. If you're working on a project with other developers and you all start coding in your own *style* you'll quickly find your source code is a mess and becomes unreadable. And [readability](http://shop.oreilly.com/product/9780596802301.do) really does [matter](http://books.google.co.uk/books/about/Clean_Code.html?id=_i6bDeoCQzsC)! 
+There's a bit of a debate as to whether you should intent your code with tabs or spaces, and if you use spaces is it two of them or four? Does white space matter? What about file naming conventions? Obviously there are a lot of variables (bad pun) here that may affect the way you work. If you're working on a project with other developers and you all start coding in your own *style*, you'll quickly find your source code is a mess and becomes unreadable. And [readability](http://shop.oreilly.com/product/9780596802301.do) really does [matter](http://books.google.co.uk/books/about/Clean_Code.html?id=_i6bDeoCQzsC)! 
 
 ## Why Should I Care?
 
@@ -17,16 +17,16 @@ Here are some interesting points (see ref. #1 for source):
  
 * Hardly any software is maintained for its whole life by the original author.
 
-Think how many young open source projects would die if when the original author left nobody wanted to pick up the project anymore because the source code was in such a bad shape? Nobody wants to buy a home that's been badly looked after and the same goes for code. That's how projects die. There's nothing worse than coming along to work on a project only to find that it's been badly maintained and nobody wants to work on it. 
+Think how many young open source projects would die if when the original author left and nobody wanted to pick up the project anymore because the source code was in bad shape? Nobody wants to buy a home that's been badly looked after and the same goes for code. That's how projects die. There's nothing worse than coming along to use a library on a project only to find that it's been badly maintained and nobody wants to work on it. 
 
-This point is also raised in The [Cathedral and the Bazaar](http://www.catb.org/esr/writings/cathedral-bazaar/cathedral-bazaar/) where Eric S. Raymon takes over, quite by accident, a dead project after the original author had lost interest. Initially through small patches and bugfixes, he took over maintaining the project and the code base started evolving again. In this open source world of code sharing it's easy to get the ball rolling on a project and have it live on long after the original author has lost interest. The easier you make it for people in later years to come and pickup your code again the better you are for it as they'll respect you and your work more instead of starting again from scratch. I would much rather develop code for a dead code and inherit the position as a maintainer vs [re-invent the wheel](http://sourcemaking.com/antipatterns/reinvent-the-wheel).
+This point is also raised in [The Cathedral and the Bazaar](http://www.catb.org/esr/writings/cathedral-bazaar/cathedral-bazaar/) where Eric S. Raymon takes over, quite by accident, a dead project after the original author had lost interest. Initially through small patches and bugfixes, he took over maintaining the project and the code base started evolving again. In this open source world of code sharing it's easy to get the ball rolling on a project and have it live on long after the original author has lost interest. The easier you make it for people in later years to come and pickup your code again the better you are for it as they'll respect you and your work more instead of starting again from scratch. I would much rather develop code for a dead code and inherit the position as a maintainer vs [re-invent the wheel](http://sourcemaking.com/antipatterns/reinvent-the-wheel).
 
 I have the pleasure of working with some very clever chaps like Gavin, whose written an excellent blog post on [trusting the libraries](http://www.boxuk.com/blog/trusting-the-libraries-you-use) you use. A good way to do this is to see how often code gets contributed to it. That will give you an idea about whether this code is actually being used by people in the wild and how well it's being maintained. I would be willing to bet that the projects being actively developered for are also the ones backed up by good coding standards. Imagine the pain you'd have for investing days/weeks worth of time integrating the use of a library in your project only to find that there's a big bug preventing you from doing what you want with it, but because the project isn't being maintained you have nobody to send a bug report or fix to. On the other hand, that could be your opporunity to take over the project give it a new lease of life.
 
 ## PSRs
 I'm using PSR as an example because I'm a PHP developer by trade right now and that's what I know best although the concepts are mostly interchangable between languages. 
 
-So far [PHP Framework Interoperability Group](http://www.php-fig.org/) (PHP-FIG) have introduced three standards:
+So far [PHP Framework Interoperability Group](http://www.php-fig.org/) (PHP-FIG) have introduced three "standards":
 
 ### Autoloading Standard: PSR-0
 PSR-0 drescribed requirements to be adhered to for autoloader interoperability. For example: 
@@ -42,8 +42,54 @@ You might be asking: *why does this matter?* OK, I agree that initially this mig
 Not only that but because the two frameworks both adopted PSR-0 it means you can use parts of either framework in your project and that kind of interoperability is something that just didn't exist at this level a few years ago. When I wrote my dissertation I didn't know any of this so I was stuck using a heavy weight framework and limited myself to it. Big mistake!
 
 ### Basic Coding Standard: PSR-1
+PSR-1 is just what it says on the tin: it's the basic coding for "*what should be considered the standard coding elements that are required to ensure a high level of technical interoperability between shared PHP code*". Amongst the typical things most people agree on like camelCase method signatures and StudlyCase Class names you'll find other, more specific rules. 
+
+* PHP code MUST use only UTF-8 without BOM.
+* Constants must be declared in upper case with underscore separaters
+* Side Effects
+
+#### Side Effects
+This is an interesting (read: weird) point raised in PSR-1. 
+
+>A file SHOULD declare new symbols (classes, functions, constants, etc.) and cause no other side effects, or it SHOULD execute logic with side effects, but SHOULD NOT do both.
+
+What "side effects" means is the running of code not directly related to declaring classses, functions, constants, etc. Examples of side effects are: modifying global or static variables,  reading/writing a file, modifying php.ini settings, etc. 
+
+This example is taken from the php-fig documentation on PSR-1:
+
+```
+<?php
+// side effect: change ini settings
+ini_set('error_reporting', E_ALL);
+
+// side effect: loads a file
+include "file.php";
+
+// side effect: generates output
+echo "<html>\n";
+
+// declaration
+function foo()
+{
+    // function body
+}
+```
+
+When I first read this I was trying to understand why it was necessary. OK, some stuff I get: modifying php.ini settings on the fly isn't a good idea and echoing out HTML can get sloppy and should be kept away (separation of concerns) whenever you can. But including files I didn't get right off: why was that so bad? 
+
+The reason: when your class is loaded, [the state of the application should not change](http://stackoverflow.com/a/13299008/694629). Anything which changes the state (environment) in which your code runs should be kept and loaded somewhere else. If you're including a file that executes code (which, let's be honest, is the only reason you would be) then that will modify the state of your application and cause unreliable results. 
+
+There are other reasons why this isn't a great idea either:
+
+* What if Disk I/O is reaching critical levels when you run an include/require?
+* What happens when the file is modified outside of the state of your application?
+
+That's pretty much all I'm going to say on PSR-1. You could go further but I don't think it's necessary as it's fairly self explanatory and it's what most are already doing anyway without even realising it.
+
 
 ### Coding Style Guide: PSR-2
+
+
 
 ## Why This Matters To Me?
 Coding standards matter to me because the way I'm working at the moment means that CI jobs will fail if the build if PSR-2 compliance isn't met. If the the code in the Pull Request fails the build then it won't get merged in. By ensuring my code meets the PSR-2 coding style I'm making sure that my code is of a good quality, readability and thus (hopefuly) maintainabile. I don't want to be known as *that* guy whose code is hard to work with. Git/SVN blame makes it easy to trace down who and when lines of code were added. I don't want any crazy developers hunting me down in years to come!
