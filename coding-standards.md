@@ -42,13 +42,13 @@ You might be asking: *why does this matter?* OK, I agree that initially this mig
 Not only that but because the two frameworks both adopted PSR-0 it means you can use parts of either framework in your project and that kind of interoperability is something that just didn't exist at this level a few years ago. When I wrote my dissertation I didn't know any of this so I was stuck using a heavy weight framework and limited myself to it. Big mistake!
 
 ### Basic Coding Standard: PSR-1
-PSR-1 is just what it says on the tin: it's the basic coding for "*what should be considered the standard coding elements that are required to ensure a high level of technical interoperability between shared PHP code*". Amongst the typical things most people agree on like camelCase method signatures and StudlyCase Class names you'll find other, more specific rules. 
+PSR-1 is just what it says on the tin: it's the basic coding for "*what should be considered the standard coding elements that are required to ensure a high level of technical interoperability between shared PHP code.*" Amongst the typical things most people agree on like camelCase method signatures and StudlyCase Class names you'll find other, more specific rules. 
 
 * PHP code MUST use only UTF-8 without BOM.
 * Constants must be declared in upper case with underscore separaters
 * A file should declare symbols (classes, functions, constants) or declare side effects
 
-#### Side Effects
+#### What Are 'Side Effects'?
 This is an interesting (read: weird) point raised in PSR-1. 
 
 >A file SHOULD declare new symbols (classes, functions, constants, etc.) and cause no other side effects, or it SHOULD execute logic with side effects, but SHOULD NOT do both.
@@ -131,9 +131,12 @@ class Foo extends Bar implements FooInterface
 
 As you can see, PSR-2 provides for very readable code. We can see from that example that the namespace complies to PSR-1, there's a nice blank line between the namespace before the ```use``` declarations and that the class and function curly braces go on a new line for added clarity. Note however that the if/else block places the opening curly brace on the same line! Some would criticise PSR-2 here for inconsistency, and maybe their right.
 
-I honestly don't know the reason for this. I would like to think it's because classes and functions can be long and can sometimes extend longer than your IDE can show you at one time, so putting it on a new line helps clarity. However control structures like if/else blocks are very common and shouldn't be long or unweildy and so it would be overkill to put those on a new line - but that's just me talking.
+I honestly don't know the reason for this. I would like to think it's because classes and functions can be long and can sometimes extend longer than your IDE can show you at one time, so putting it on a new line helps clarity. However control structures like if/else blocks are very common and shouldn't be long or unweildy and so it would be overkill to put those on a new line - but that's just me talking. I haven't covered everything here, there's a lot more to the PSR-2 standard so check it out!
 
 One more thing: the documentation for PSR-2 doesn't give justification for these rules. They were gathered from studying well run projects and looking for commonalities to adopt as a practice. They kept their survey data and results and published them too: <https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md#appendix-a-survey> 
+
+### Logger Interface: PSR-3
+This is new to me: I don't know it and I haven't used it. PSR-3's goal is to allow libraries to receive a LoggerInterface object and write logs in a simple and universal way. By providing a standard for doing so the hope is aim is that third party code can easily write to the centralised application logs. PSR-3 has only recently (5/1/2013) moved from a proposed standard to an accepted one. A quick search found that [Monolog](https://github.com/Seldaek/monolog/tree/1.3.0) has adopted PSR-3 compliance as of version 1.3 The project's docs say: "*This library implements the PSR-3 interface that you can type-hint against in your own libraries to keep a maximum of interoperability. You can also use it in your applications to make sure you can always use another compatible logger at a later time.*"
 
 ## Why This Matters To Me?
 Coding standards matter to me because the way I'm working at the moment means that CI jobs will fail if the build if PSR-2 compliance isn't met. If the the code in the Pull Request fails the build then it won't get merged in. By ensuring my code meets the PSR-2 coding style I'm making sure that my code is of a good quality, readability and thus (hopefuly) maintainabile. I don't want to be known as *that* guy whose code is hard to work with. Git/SVN blame makes it easy to trace down who and when lines of code were added. I don't want any crazy developers hunting me down in years to come!
