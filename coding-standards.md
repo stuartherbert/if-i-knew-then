@@ -1,3 +1,10 @@
+---
+layout: book-chapter
+title: Coding Standards
+prev: '<a href="maintainability.html">Prev: Maintainability</a>'
+next: '<a href="continuous-integration.html">Next: Continuous Integration</a>'
+
+---
 Coding Standards - Steffan Harries
 ==================================
 
