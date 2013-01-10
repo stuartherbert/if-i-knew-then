@@ -62,7 +62,7 @@ This is an interesting (read: weird) point raised in PSR-1.
 
 What "side effects" means is the running of code not directly related to declaring classses, functions, constants, etc. Examples of side effects are: modifying global or static variables,  reading/writing a file, modifying php.ini settings, etc. 
 
-This example is taken from the php-fig documentation on PSR-1:
+This example is taken from the php-fig documentation on PSR-1: 
 
 ```
 <?php
