@@ -100,9 +100,9 @@ Here's what I mean, demonstrated by a contrived scenario!
 
 A project manager says to you "can you deliver features A, B and C by Monday". You don't think that's realistic. Which is the right answer?
 
- a. "You've got to be kidding!"
- b. "I'll do my best" and work all weekend
- c. "I will deliver A and B by Monday, can the client wait for C?"
+ * a. "You've got to be kidding!"
+ * b. "I'll do my best" and work all weekenda
+ * c. "I will deliver A and B by Monday, can the client wait for C?"
 
 If you answered (a), then sorry but that's going to put your PM into defensive mode. Remember, he or she is under pressure too, often more than you are. Always be polite and positive in your language and treat people as you would wish to be treated.
 
