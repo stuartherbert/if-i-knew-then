@@ -14,7 +14,7 @@ _(* work still isn't the be-all and end-all, I just think I'm more diligent abou
 
 I was pretty bright back then, and I could pick things up quite quickly. I started to think I knew it all, and anything I wasn't comfortable with, I kind of glossed over. I had ability and youth, but I did not have a particularly good attitude. I was quite arrogant, despite the fact that, in all honesty, my code quality was actually pretty shocking!
 
-Perhaps even worse, in my early career, I could be pretty condescending to clients. I remember once a client asked me for a change that I felt violated best practise and I wrote down in my notes, speaking it aloud, "break the user interface". Pretty appalling customer service!
+Perhaps even worse, in my early career, I could be pretty condescending to clients. I remember once a client asked me for a change that I felt violated best practice and I wrote down in my notes, speaking it aloud, "break the user interface". Pretty appalling customer service!
 
 I look back on those early years and I cringe. I had a terrible attitude. I could have made far more progress, professionally and personally, had I had my attitude right.
 
@@ -74,7 +74,7 @@ The software industry is high-pressure, I really hope nobody has pretended to yo
 
 Hopefully, University will have given you a decent knowledge of how a computer works. You'd be surprised how often a modest understanding of binary arithmetic has helped me to understand a problem! There's so much to learn that picking up the concepts behind things, rather than the latest technology, is really important.
 
-For example, if your're using a library that has a fluid interface, you could look it up - what is a fluid interface? How do you write one? What are the pros and cons?
+For example, if you're using a library that has a fluid interface, you could look it up - what is a fluid interface? How do you write one? What are the pros and cons?
 
 Or, if you use a bit of Clojure in a project, you could look up what paradigm the language uses, and do a bit of reading around why it is the way it is, where it came from and so forth.
 
