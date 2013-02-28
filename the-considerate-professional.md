@@ -1,3 +1,6 @@
+The Considerate Professional - Adrian Hardy
+===========================================
+
 Background
 ----------
 
@@ -145,4 +148,9 @@ In conclusion
 
 Don't be an asshole. It's that simple. 
 
-Accept that you can be wrong sometimes. Be prepared to learn all the time. Be courteous both technically and personally. Take pride in your work. Be a valued team member, but not through protectionist over engineering. 
+Accept that you can be wrong sometimes. Be prepared to learn all the time. Be courteous both technically and personally. Take pride in your work. Be a valued team member, but not through protectionist over engineering.
+
+About Me 
+--------
+
+I'm the Development Team Lead at Magma Digital. My day to day job involves every aspect of the software development life cycle, from shaking hands with the client at the very first meeting to marvelling with my team members as we hit the big, figurative launch button. My first commercial job was in 2002 as a PHP developer and PHP has stuck with me to this day.
