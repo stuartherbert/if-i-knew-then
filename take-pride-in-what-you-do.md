@@ -30,6 +30,11 @@ Pragmatism vs Pride
 
 The problem of pride is that it can turn into arrogance. This is something that you need to be careful about. There is, as far as I've experienced, not a single project where you can be proud of every single line of code. Whether it is because of legacy code, time or budget constraints or any other reason, but something you have to set aside your pride and simply be pragmatic. Make sure that you recognize the situations where you need to be pragmatic. There are no rules or easy checklists for when you need to take which approach, this is a matter of experience. Don't be afraid to make a mistake, you'll find out sooner or later whether the chosen approach is right or wrong. But make sure you don't become arrogant. Recognize mistakes and learn from them, it will only make you a better developer.
 
+Development?
+------------
+
+The great thing is: You can apply this mindset to more than just development. Take it with you for everything you do, starting with your work, through your friendships to raising children. And remember that software development should never be 100% of your life anyway.
+
 About me
 --------
 
