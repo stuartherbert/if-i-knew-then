@@ -2,6 +2,7 @@
 layout: book-chapter
 title: Social Events
 prev: '<a href="design-patterns.html">Prev: Design Patterns</a>'
+next: '<a href="feedback.html">Next: Feedback Most Welcome</a>'
 ---
 
 # Aurélien Thieriot - Social Events

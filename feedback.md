@@ -1,7 +1,7 @@
 ---
 layout: book-chapter
 title: Feedback Most Welcome
-prev: '<a href="index.html">Prev: If I Knew Then</a>'
+prev: '<a href="social-events.html">Prev: Social Events</a>'
 next: '<a href="authors.html">Next: About The Authors</a>'
 ---
 
