@@ -2,12 +2,9 @@
     "navDepth": 1,
     "contents": [
         "index",
+        "preface",
         "introduction",
-        "feedback",
-        "authors",
-        "copyright",
-        "licence",
-        "production-notes",
+        "key-skills-for-industry",
         "maintainability",
         "coding-standards",
         "continuous-integration",
@@ -17,6 +14,11 @@
         "social-events",
 	    "measuring-success",
         "degrees-and-qualifications",
-        "take-pride-in-what-you-do"
+        "take-pride-in-what-you-do",
+        "feedback",
+        "authors",
+        "copyright",
+        "licence",
+        "production-notes"
     ]
 }
