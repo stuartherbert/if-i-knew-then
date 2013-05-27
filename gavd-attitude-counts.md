@@ -1,16 +1,17 @@
 ---
 layout: book-chapter
 title: Attitude Counts
-prev: '<a href="maintainability.html">Prev: Maintainability</a>'
+prev: '<a href="coding-standards.html">Prev: Coding Standards</a>'
+next: '<a href="design-patterns.html">Next: Design Patterns</a>'
 ---
 
 # Gavin Davies - Attitude Counts
 
 ## What do you wish you'd known?
 
-I got started early - I wrote my first code around age 4. I left Aberystwyth University in 2001 with first class honours in Computer Science and Geography. At this point, I felt fairly confident that I knew a lot about software and I took my first job at a small web company. For a large amount of my time there, I was the only full-time dev in the company. Over the next few months, I learned the skills I would need (basic PhotoShop, ASP classic, HTML and a little CSS) and off I went, building web applications. My work perhaps wasn't my particularly high on my list of priorities*; I was in a rock and roll band, and we had moved to Cardiff as a unit, but work paid the bills and life was fun.
+I got started early - I wrote my first code around age 4. I left Aberystwyth University in 2001 with first class honours in Computer Science and Geography. At this point, I felt fairly confident that I knew a lot about software and I took my first job at a small web company. For a large amount of my time there, I was the only full-time dev in the company. Over the next few months, I learned the skills I would need (basic PhotoShop, ASP classic, HTML and a little CSS) and off I went, building web applications. My work perhaps wasn't my particularly high on my list of priorities\*; I was in a rock and roll band, and we had moved to Cardiff as a unit, but work paid the bills and life was fun.
 
-_(* work still isn't the be-all and end-all, I just think I'm more diligent about it now!)_
+_(\* work still isn't the be-all and end-all, I just think I'm more diligent about it now!)_
 
 I was pretty bright back then, and I could pick things up quite quickly. I started to think I knew it all, and anything I wasn't comfortable with, I kind of glossed over. I had ability and youth, but I did not have a particularly good attitude. I was quite arrogant, despite the fact that, in all honesty, my code quality was actually pretty shocking!
 
