@@ -33,4 +33,6 @@ You need to be productive from day one, and that means taking responsibility for
 
 This e-book contains answers from the [Voices From Industry](https://plus.google.com/communities/111699457416495663696) Google community to one question: _what do you wish you'd known before you graduated from university?_  It gives you an insight into some of the different skills required to be in industry, written by people who are already working in industry.
 
-Each chapter focuses on one area that these developers believe have been important in _their_ careers.
+Each chapter focuses on one area that these developers believe have been important in _their_ careers.  In their own words, each developer shares with you something that they wish they'd known before they graduated.
+
+We hope this inspires you.
