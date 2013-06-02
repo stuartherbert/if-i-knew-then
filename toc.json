@@ -2,12 +2,23 @@
     "navDepth": 1,
     "contents": [
         "index",
+        "preface",
         "introduction",
+        "key-skills-for-industry",
+        "maintainability",
+        "coding-standards",
+        "continuous-integration",
+        "attitude-counts",
+        "the-considerate-professional",
+        "design-patterns",
+        "social-events",
+	    "measuring-success",
+        "degrees-and-qualifications",
+        "take-pride-in-what-you-do",
         "feedback",
         "authors",
         "copyright",
         "licence",
-        "production-notes",
-        "maintainability"
+        "production-notes"
     ]
 }
