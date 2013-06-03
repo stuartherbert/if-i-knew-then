@@ -1,13 +1,13 @@
 ---
 layout: book-chapter
 title: Attitude Counts
-prev: '<a href="coding-standards.html">Prev: Coding Standards</a>'
+prev: '<a href="continuous-integration.html">Prev: Coding Standards</a>'
 next: '<a href="design-patterns.html">Next: Design Patterns</a>'
 ---
 
 # Attitude Counts
 
-_By [Gavin Davies](#about_me)
+_By [Gavin Davies](#about_me)_
 
 ## What Do I Wish I'd Known?
 
