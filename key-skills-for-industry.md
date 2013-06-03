@@ -9,7 +9,9 @@ next: '<a href="coding-standards.html">Next: Coding Standards</a>'
 
 _By Stuart Herbert_
 
-Let's start by doing my best to shatter any illusions you might have that your degree is all that you need to know in order to be employable in the computing industry today.  It isn't, and this list is why.
+I hope you've enjoyed this book, and the stories and information that our volunteer authors have shared with you.  How does it compare with what you _thought_ you needed to know by the time you graduate?
+
+Just in case we haven't achieved it yet, I'm going to finish the book doing my best to shatter any illusions you might have that your degree is all that you need to know in order to be employable in the computing industry today.  It isn't, and this list is why.
 
 This is a list of the skills and knowledge that employers expect new graduates to have, taken from my book [Getting Hired](http://books.stuartherbert.com/getting-hired/). I’ve compiled this list over the last few years from talking to fellow employers both online and at industry-leading conferences. It isn’t complete, but I’m confident that it’s reasonably representative.
 
