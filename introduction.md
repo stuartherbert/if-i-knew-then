@@ -2,7 +2,7 @@
 layout: book-chapter
 title: Introduction
 prev: '<a href="preface.html">Prev: Preface</a>'
-next: '<a href="key-skills-for-industry.html">Next: The Key Skills That Industry Expects</a>'
+next: '<a href="maintainability.html">Next: Maintainability</a>'
 ---
 
 # Introduction

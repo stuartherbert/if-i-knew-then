@@ -1,13 +1,13 @@
 ---
 layout: book-chapter
 title: Coding Standards
-prev: '<a href="key-skills-for-industry.html">Prev: The Key Skills That Industry Expects</a>'
-next: '<a href="gavd-attitude-counts.html">Next: Attitude Counts</a>'
+prev: '<a href="maintainability.html">Prev: Maintainability</a>'
+next: '<a href="continuous-integration.html">Next: Coding Standards</a>'
 ---
 
 # Coding Standards
 
-_By [Steffan Harries](#bio)_
+_By [Steffan Harries](#about_me)_
 
 ## What are Coding Standards?
 
@@ -170,7 +170,7 @@ I've definitely seen a change in the way I write code for the better since adopt
 
 There's a PEAR package called [PHP_CodeSniffer](http://pear.php.net/package/PHP_CodeSniffer/) which will provide you with the CLI tool `phpcs` which you can use to check your code's compatability. You can also control its output format if you only want a summary or a full output depending on your needs. Integrating PHP_CodeSniffer into your Continuous Integration tasks will automate this task for you.
 
-## Bio
+## About Me
 
 I'm [Steffan Harries](http://www.steffanharries.me.uk), I recently graduated from [Aberystwyth University](http://www.aber.ac.uk/en/cs/) and I'm now working in Cardiff city centre. In my short time in industry I've picked up loads of useful info and best practices from new colleagues and a variety of events in Cardiff. My interests lie in web development, photography and motorsport.
 

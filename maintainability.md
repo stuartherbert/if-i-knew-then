@@ -1,7 +1,7 @@
 ---
 layout: book-chapter
 title: Maintainability
-prev: '<a href="key-skills-for-industry.html">Prev: Key Skills for Industry</a>'
+prev: '<a href="introduction.html">Prev: Introduction</a>'
 next: '<a href="coding-standards.html">Next: Coding Standards</a>'
 ---
 

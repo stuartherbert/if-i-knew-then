@@ -1,7 +1,7 @@
 ---
 layout: book-chapter
 title: Feedback Most Welcome
-prev: '<a href="social-events.html">Prev: Social Events</a>'
+prev: '<a href="key-skills-for-industry.html">Prev: The Key Skills That Industry Expects</a>'
 next: '<a href="authors.html">Next: About The Authors</a>'
 ---
 

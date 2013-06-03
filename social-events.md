@@ -2,7 +2,7 @@
 layout: book-chapter
 title: Social Events
 prev: '<a href="design-patterns.html">Prev: Design Patterns</a>'
-next: '<a href="feedback.html">Next: Feedback Most Welcome</a>'
+next: '<a href="take-pride-in-what-you-do.html">Next: Take Pride In What You Do</a>'
 ---
 
 # Aurélien Thieriot - Social Events
