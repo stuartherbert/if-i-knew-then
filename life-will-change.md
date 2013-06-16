@@ -64,5 +64,4 @@ Find a mentor. They've probably already been through what you're going through a
 Finally, it's okay if you don't know if your current career choice is what you want to do for the rest of your life. A lot of people don't know what they want to do. Don't use this as an excuse to stagnate, working a dead end 9-5 job as you can't be bothered looking at what else is out there. Explore your passions, and meet people with similar interests. There's generally a job waiting at the end of it.
 
 ## About Me
-
-Michael's bio here.
+I'm a (relatively) young developer who's recently gone through the whole university to full time work transition. You'll find me either in the [DataSift](http://datasift.com) office, at a tech event, or on a train going to visit family as I left them all behind and moved 200 miles for work. If I'm not at work, I'm either playing games or working on personal projects. The down side to your hobby being your job is that you just never stop doing it.
