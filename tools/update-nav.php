@@ -202,4 +202,5 @@ for($i = 0; $i < count($pages); $i++)
 	// all done
 	$pageSource = implode("\n", $pageSource);
 	file_put_contents($page['MdFilename'], $pageSource);
+	echo "Prev/next: {$page['MdFilename']}\n";
 }
