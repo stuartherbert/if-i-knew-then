@@ -86,7 +86,7 @@ _Protip_: Blog about what you've done!  Don't be afraid to promote yourself.
 
 ## And then...?
 
-You've taken the first two steps on improving your visibility on search engines.  If you can demonstrate to future employers that you're a knowledgeable individual who can communicate, work well in a team, and produce solid code - you've substantially increased your ability to find employment.
+You've taken the first two steps on improving your visibility on search engines.  If you can demonstrate to future employers that you're a knowledgeable individual who can communicate, work well in a team, and produce solid code - you've massively increased your ability to find employment.
 
 Your future employer *is* going to search for you.  Make sure they find something substantially more interesting than drunken photos on Facebook!
 
