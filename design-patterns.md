@@ -1,7 +1,7 @@
 ---
 layout: book-chapter
 title: The Perils Of Design Patterns
-prev: '<a href="attitude-counts.html">Prev: Attitude Counts</a>'
+prev: '<a href="the-considerate-professional.html">Prev: The Considerate Professional</a>'
 next: '<a href="social-events.html">Next: Social Events</a>'
 ---
 

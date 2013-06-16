@@ -2,7 +2,7 @@
 layout: book-chapter
 title: Attitude Counts
 prev: '<a href="continuous-integration.html">Prev: Continuous Integration</a>'
-next: '<a href="design-patterns.html">Next: The Perils Of Design Patterns</a>'
+next: '<a href="the-considerate-professional.html">Next: The Considerate Professional</a>'
 ---
 
 # Attitude Counts
