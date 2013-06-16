@@ -29,7 +29,7 @@ University is a strange place: people can be anything that they want to be and n
 
 You'll find that there are lots of people out there that are "better" than you at a lot of things. Don't be disheartened, it's just something you have to accept. I'd go one further though: *don't accept it, embrace it*. This is how *you* become better, by surrounding yourself with people to learn from.
 
-As part of transitioning into work life, you have to transition to a regular schedule. \[Can we develop this point? - Ed\]
+As part of transitioning into work life, you have to transition to a regular schedule. Sleeping at the same time each day, commuting to work on the same train (or in the same set of traffic), even eating at the same time each day. It sounds odd, but if you eat three hours late for some reason your body will think that it's still earlier than it actually is and your routine will be affected. In addition, the nice thing about having a routine is that you know when you're *not* supposed to be doing something. You can plan fun things to do as you know you're not going to be busy with something else.
 
 ## Friendships and Relationships
 
@@ -53,7 +53,7 @@ The biggest one for me is realising that your metabolism slows. Five takeaway pi
 
 You *will* fail. No-one knows what they'll fail at, or how big an impact it'll have on their life, but they know that they'll fail. It might not feel fair, it might not be your fault, but it'll happen. Keep going! *You've got to keep moving forward*. Sometimes you'll fail again, maybe through your thirties and forties too, but you've got to keep moving forward. Self belief is possibly *the* most important attribute you can possess.
 
-Unfortunately, money matters. You need somewhere to live, something to eat. Money means opportunity, the opportunity to try new things. However, money isn't everything. Prioritise relationships with people + gaining influence for money, at least in the short term. Take on additional responsibilities without demanding higher pay. Good places will offer compensation, but whilst you're young, the experience is worth it's weight in gold.
+Unfortunately, money matters. You need somewhere to live, something to eat. Money means opportunity, the opportunity to try new things. However, money isn't everything. Prioritise relationships with people + gaining influence over money, at least in the short term. Take on additional responsibilities without demanding higher pay. Good places will offer compensation, but whilst you're young, the experience is worth it's weight in gold.
 
 Have an opinion, be tenacious, but know when to agree to disagree. In a lot of cases, the discussion is a lot more important than the end decision.
 
