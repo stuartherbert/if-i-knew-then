@@ -1,6 +1,8 @@
 ---
-layout: book-title
+layout: book-chapter
 title: Life Will Change
+prev: '<a href="measuring-success.html">Prev: Measuring Success</a>'
+next: '<a href="take-pride-in-what-you-do.html">Next: Take Pride In What You Do</a>'
 ---
 
 # Life Will Change
