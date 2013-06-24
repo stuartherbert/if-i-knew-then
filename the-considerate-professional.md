@@ -2,7 +2,7 @@
 layout: book-chapter
 title: The Considerate Professional
 prev: '<a href="attitude-counts.html">Prev: Attitude Counts</a>'
-next: '<a href="design-patterns.html">Next: The Perils Of Design Patterns</a>'
+next: '<a href="productivity.html">Next: How to be more productive</a>'
 ---
 
 # The Considerate Professional

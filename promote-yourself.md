@@ -1,8 +1,8 @@
 ---
 layout: book-chapter
 title: Promote Yourself
-prev: '<a href="">Prev: </a>'
-next: '<a href="">Next: </a>'
+prev: '<a href="life-will-change.html">Prev: Life Will Change</a>'
+next: '<a href="take-pride-in-what-you-do.html">Next: Take Pride In What You Do</a>'
 ---
 
 # Don't Be Afraid To Promote Yourself

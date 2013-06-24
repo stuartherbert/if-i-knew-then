@@ -1,7 +1,7 @@
 ---
 layout: book-chapter
 title: Take Pride In What You Do
-prev: '<a href="life-will-change.html">Prev: Life Will Change</a>'
+prev: '<a href="promote-yourself.html">Prev: Promote Yourself</a>'
 next: '<a href="key-skills-for-industry.html">Next: The Key Skills That Industry Expects</a>'
 ---
 
