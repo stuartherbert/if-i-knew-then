@@ -17,3 +17,7 @@ Edited By Stuart Herbert
 First edition. Currently in draft.
 
 ## Available Formats
+
+You can read this book in the following format:
+
+* [Online HTML](http://books.stuartherbert.com/if-i-knew-then/)
