@@ -52,13 +52,13 @@ There are different types of events:
 
 I am personally convinced that these meetings will always exists. It's like musicians. There will always be people that want to share their passions, learn and teach. Beside, nowadays, most companies have understood the benefits of it. First, as a sponsor, because you it's often the community targted. Then, as a recruitment pool, it's a good way to find motivated talents. And finally, as source of knowledge and motivation, it's very positive (and cheaper than training) to send employee at conferences for example.
 
-## Where to start
+## Where To Start
 
 It depends on where you live, but it's not difficult to find your nearer User Group. Google will make a wonderful job on that. [Eventbrite](http://www.eventbrite.com/), [Lanyrd](http://lanyrd.com/) and [Meetup](http://www.meetup.com/) are also very efficient. Don't hesitate to follow everyone related on Twitter, other social platform or look at the mailing lists. Don't be shy. It may also be a good reason to travel around the world to check other conferences.
 
 If your don't find anything or if your favourite language/methodology/tool has not his event. Take the lead! You can start by doing Tech Talks in your company. Asking for help in your city. It could be a simple meetup at Starbucks a Monday morning with five attendees. It's maybe the start of a new adventure or maybe not. But it's amazing what we can achieve together.
 
-## Author bio
+## About Me
 
 As a follower of the software craftsmanship movement, an open source enthusiast and an Agile advocate, Aurélien has worked with computers for almost 10 years. While starting his career as a technician, he quickly became an experienced Java developer and a good team worker. He loves the web, small automation tools and he is always looking for new technologies to play with.
 
