@@ -1,6 +1,6 @@
 ---
 layout: book-chapter
-title: How to be more productive
+title: How To Be More Productive
 prev: '<a href="measuring-success.html">Prev: Measuring Success</a>'
 next: '<a href="promote-yourself.html">Next: Promote Yourself</a>'
 ---
