@@ -35,4 +35,4 @@ This alone was the single most important lesson that I learned in my first year 
 
 ## About Me
 
-My bio goes here.
+Chris currently works as a C++ developer for [DataSift](http://datasift.com).
