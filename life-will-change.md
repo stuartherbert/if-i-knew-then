@@ -1,7 +1,7 @@
 ---
 layout: book-chapter
 title: Life Will Change
-prev: '<a href="design-patterns.html">Prev: The Perils Of Design Patterns</a>'
+prev: '<a href="productivity.html">Prev: How To Be More Productive</a>'
 next: '<a href="maintainability.html">Next: Maintainability</a>'
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: book-chapter
 title: Write More Code
-prev: '<a href="the-considerate-professional.html">Prev: The Considerate Professional</a>'
+prev: '<a href="design-patterns.html">Prev: The Perils Of Design Patterns</a>'
 next: '<a href="key-skills-for-industry.html">Next: The Key Skills That Industry Expects</a>'
 ---
 # Write More Code

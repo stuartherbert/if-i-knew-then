@@ -2,7 +2,7 @@
 layout: book-chapter
 title: Measuring Success
 prev: '<a href="maintainability.html">Prev: Maintainability</a>'
-next: '<a href="productivity.html">Next: How to be more productive</a>'
+next: '<a href="promote-yourself.html">Next: Promote Yourself</a>'
 ---
 
 # Measuring Success

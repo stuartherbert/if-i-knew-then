@@ -1,8 +1,8 @@
 ---
 layout: book-chapter
 title: How To Be More Productive
-prev: '<a href="measuring-success.html">Prev: Measuring Success</a>'
-next: '<a href="promote-yourself.html">Next: Promote Yourself</a>'
+prev: '<a href="continuous-integration.html">Prev: Continuous Integration</a>'
+next: '<a href="life-will-change.html">Next: Life Will Change</a>'
 ---
 
 # How To Be More Productive

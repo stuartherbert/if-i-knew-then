@@ -1,7 +1,7 @@
 ---
 layout: book-chapter
 title: Promote Yourself
-prev: '<a href="productivity.html">Prev: How to be more productive</a>'
+prev: '<a href="measuring-success.html">Prev: Measuring Success</a>'
 next: '<a href="social-events.html">Next: Social Events</a>'
 ---
 

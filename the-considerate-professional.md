@@ -2,7 +2,7 @@
 layout: book-chapter
 title: The Considerate Professional
 prev: '<a href="take-pride-in-what-you-do.html">Prev: Take Pride In What You Do</a>'
-next: '<a href="write-more-code.html">Next: Write More Code</a>'
+next: '<a href="design-patterns.html">Next: The Perils Of Design Patterns</a>'
 ---
 
 # The Considerate Professional
