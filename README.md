@@ -1,6 +1,6 @@
 # README
 
-__If I Knew Then__ is a free ebook, its content crowdsourced from the Internet, made available under a Creative Commons licence.  The development of the book is being managed through the [Voices Of Industry](https://plus.google.com/u/0/communities/111699457416495663696) community on Google+.
+__If I Knew Then__ is a free ebook, its content crowdsourced from the Internet, made available under a Creative Commons licence.  The development of the book is being managed through the [Voices From Industry](https://plus.google.com/u/0/communities/111699457416495663696) community on Google+.
 
 If you'd like to contribute a chapter to the book, pull requests are welcome.
 
