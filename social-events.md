@@ -1,8 +1,8 @@
 ---
 layout: book-chapter
 title: Social Events
-prev: '<a href="design-patterns.html">Prev: The Perils Of Design Patterns</a>'
-next: '<a href="measuring-success.html">Next: Measuring Success</a>'
+prev: '<a href="promote-yourself.html">Prev: Promote Yourself</a>'
+next: '<a href="take-pride-in-what-you-do.html">Next: Take Pride In What You Do</a>'
 ---
 
 #  Social Events

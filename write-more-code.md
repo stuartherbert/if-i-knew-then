@@ -1,8 +1,8 @@
 ---
 layout: book-chapter
 title: Write More Code
-prev: '<a href="introduction.html">Prev: Introduction</a>'
-next: '<a href="maintainability.html">Next: Maintainability</a>'
+prev: '<a href="the-considerate-professional.html">Prev: The Considerate Professional</a>'
+next: '<a href="key-skills-for-industry.html">Next: The Key Skills That Industry Expects</a>'
 ---
 # Write More Code
 

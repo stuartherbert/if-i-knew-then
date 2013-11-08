@@ -1,8 +1,8 @@
 ---
 layout: book-chapter
 title: Measuring Success
-prev: '<a href="social-events.html">Prev: Social Events</a>'
-next: '<a href="life-will-change.html">Next: Life Will Change</a>'
+prev: '<a href="maintainability.html">Prev: Maintainability</a>'
+next: '<a href="productivity.html">Next: How to be more productive</a>'
 ---
 
 # Measuring Success

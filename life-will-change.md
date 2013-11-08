@@ -1,8 +1,8 @@
 ---
 layout: book-chapter
 title: Life Will Change
-prev: '<a href="measuring-success.html">Prev: Measuring Success</a>'
-next: '<a href="promote-yourself.html">Next: Promote Yourself</a>'
+prev: '<a href="design-patterns.html">Prev: The Perils Of Design Patterns</a>'
+next: '<a href="maintainability.html">Next: Maintainability</a>'
 ---
 
 # Life Will Change

@@ -1,8 +1,8 @@
 ---
 layout: book-chapter
 title: The Perils Of Design Patterns
-prev: '<a href="productivity.html">Prev: How to be more productive</a>'
-next: '<a href="social-events.html">Next: Social Events</a>'
+prev: '<a href="continuous-integration.html">Prev: Continuous Integration</a>'
+next: '<a href="life-will-change.html">Next: Life Will Change</a>'
 ---
 
 # The Perils Of Design Patterns

@@ -1,7 +1,7 @@
 ---
 layout: book-chapter
 title: Coding Standards
-prev: '<a href="maintainability.html">Prev: Maintainability</a>'
+prev: '<a href="attitude-counts.html">Prev: Attitude Counts</a>'
 next: '<a href="continuous-integration.html">Next: Continuous Integration</a>'
 ---
 

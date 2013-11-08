@@ -2,7 +2,7 @@
 layout: book-chapter
 title: Continuous Integration
 prev: '<a href="coding-standards.html">Prev: Coding Standards</a>'
-next: '<a href="attitude-counts.html">Next: Attitude Counts</a>'
+next: '<a href="design-patterns.html">Next: The Perils Of Design Patterns</a>'
 ---
 
 # Continuous Integration

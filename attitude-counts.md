@@ -1,8 +1,8 @@
 ---
 layout: book-chapter
 title: Attitude Counts
-prev: '<a href="continuous-integration.html">Prev: Continuous Integration</a>'
-next: '<a href="the-considerate-professional.html">Next: The Considerate Professional</a>'
+prev: '<a href="introduction.html">Prev: Introduction</a>'
+next: '<a href="coding-standards.html">Next: Coding Standards</a>'
 ---
 
 # Attitude Counts

@@ -1,7 +1,7 @@
 ---
 layout: book-chapter
 title: The Key Skills That Industry Expects
-prev: '<a href="take-pride-in-what-you-do.html">Prev: Take Pride In What You Do</a>'
+prev: '<a href="write-more-code.html">Prev: Write More Code</a>'
 next: '<a href="feedback.html">Next: Feedback Most Welcome</a>'
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: book-chapter
 title: The Considerate Professional
-prev: '<a href="attitude-counts.html">Prev: Attitude Counts</a>'
-next: '<a href="productivity.html">Next: How to be more productive</a>'
+prev: '<a href="take-pride-in-what-you-do.html">Prev: Take Pride In What You Do</a>'
+next: '<a href="write-more-code.html">Next: Write More Code</a>'
 ---
 
 # The Considerate Professional
