@@ -9,15 +9,13 @@ next: '<a href="attitude-counts.html">Next: Attitude Counts</a>'
 
 ## Who Is This Book For?
 
-The advice in this e-book is aimed at computer science and software engineering undergraduates currently in their first or second year of study, and who hope to join the computing industry in the United Kingdom after graduation.
-
-If you're already in your final year of study, to be honest you might have left it a bit late, but welcome anyway!  There's always time to improve your existing skills, and to learn new ones.
+The advice in this e-book is aimed at computer science and software engineering undergraduates currently in their first or second year of study, and who hope to join the computing industry in the United Kingdom after graduation.  It's full of advice from people who have already made the transition from student to professional software developer.
 
 __Please remember that this book is exactly that: advice.__ You’re joining an industry where you’re expected to think for a living. That goes doubly so when you’re deciding what to learn in your own time.
 
 ## Your Degree Isn't Enough
 
-You will be graduating during the worst economic downturn in living memory, and possibly the worst economic downturn for over 100 years. You probably know that already. You probably also know that here in the United Kingdom, the computing industry has no shortage of vacancies that it can’t fill. It feels like everyone is hiring right now, all across the country. Global tech giants such as Google, Facebook, Microsoft and Amazon are turning to the UK to find more engineers, creating even more vacancies that you can apply for.
+Here in the United Kingdom, the computing industry has no shortage of vacancies that it can’t fill. It feels like everyone is hiring right now, all across the country. As well as local and national employers, and startup communities such as Tech City in London, global tech giants such as Google, Facebook, Microsoft and Amazon are turning to the UK to find more engineers. Together, they are creating even more vacancies that you can apply for.
 
 It should be easy to land a job after you graduate, right?
 
