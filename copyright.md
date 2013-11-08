@@ -6,8 +6,19 @@ next: '<a href="licence.html">Next: Licence</a>'
 ---
 # Copyright
 
-Copyright (c) 2012 Stuart Herbert.
+This compilation is copyright (c) 2013 Stuart Herbert (editor).
 
-The moral right of Stuart Herbert to be identified as the author of this work has been asserted in accordance with the Copyright, Designs and Patents Act 1988.
+Individual chapters are copyright (c) 2013 by their respective authors:
 
-_When you add a chapter to the book, make sure your pull request includes an update to this page :)_
+* Gavin Davies
+* Terence Eden
+* Christopher Gilbert
+* Damian Gostomski
+* Adrian Hardy
+* Steffan Harries
+* Michael Heap
+* Stuart Herbert
+* Stefan Koopmanschap
+* Andrew Martin
+* Craig Marvelley
+* Aurélien Thieriot
