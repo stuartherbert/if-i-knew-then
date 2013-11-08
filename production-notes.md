@@ -8,13 +8,17 @@ next: '<a href="index.html">Back to: If I Knew Then</a>'
 
 If you're curious about the technology and process used to create this book, I hope the following points go someway towards answering your questions.
 
+## Planning And Discussion
+
+This book was crowdsourced from the [Voices From Industry](https://plus.google.com/communities/111699457416495663696) community on Google+.
+
 ## Writing
 
 This book was written in [Markdown](http://daringfireball.net/projects/markdown/) notation.  Markdown is a very light-weight notation, allowing me to focus on the content of the book without being distracted by presentation issues at the writing stage.
 
 The Markdown sources for this book are hosted on [GitHub](http://github.com) at [github.com/stuartherbert/if-i-knew-then/](https://github.com/stuartherbert/if-i-knew-then/).  The _toc.json_ file contains all of the chapters in the right order; the CLI PHP script _tools/update-nav.php_ is used to re-generate the HTML version's navigation sidebar when necessary.  You're most welcome to send in pull requests to help me improve the book for future editions.
 
-[Jekyll](https://github.com/mojombo/jekyll) was used to convert the Markdown sources into [the HTML version of the book](http://books.stuartherbert.com/getting-hired/).  You can run Jekyll locally on your laptop to proof your changes as you make them.
+[Jekyll](https://github.com/mojombo/jekyll) was used to convert the Markdown sources into [the HTML version of the book](http://books.stuartherbert.com/if-i-knew-then/).  You can run Jekyll locally on your laptop to proof your changes as you make them.
 
 [Twitter's Bootstrap CSS framework](http://twitter.github.com/bootstrap/) was used as the basis for the HTML version's look and feel.
 
