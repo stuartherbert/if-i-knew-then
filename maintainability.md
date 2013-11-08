@@ -1,7 +1,7 @@
 ---
 layout: book-chapter
 title: Maintainability
-prev: '<a href="introduction.html">Prev: Introduction</a>'
+prev: '<a href="write-more-code.html">Prev: Write More Code</a>'
 next: '<a href="coding-standards.html">Next: Coding Standards</a>'
 ---
 

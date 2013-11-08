@@ -2,7 +2,7 @@
 layout: book-chapter
 title: Introduction
 prev: '<a href="preface.html">Prev: Preface</a>'
-next: '<a href="maintainability.html">Next: Maintainability</a>'
+next: '<a href="write-more-code.html">Next: Write More Code</a>'
 ---
 
 # Introduction
